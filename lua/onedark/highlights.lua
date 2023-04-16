@@ -230,7 +230,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@include"] = colors.Purple,
         ["@method"] = {fg = c.blue, fmt = cfg.code_style.functions},
         ["@namespace"] = colors.Yellow,
-        ["@parameter"] = colors.Red,
+        ["@parameter"] = colors.Orange,
         ["@preproc"] = colors.Purple,
         ["@punctuation.special"] = colors.Red,
         ["@repeat"] = {fg = c.purple, fmt = cfg.code_style.keywords},
